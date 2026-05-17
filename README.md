@@ -1,4 +1,4 @@
-# donchian-backtester
+# Futures Strategy Framework
 
 Systematic backtesting framework for Donchian channel breakout strategies on futures markets.
 
