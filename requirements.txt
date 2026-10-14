@@ -1,0 +1,8 @@
+numpy
+pandas
+matplotlib
+pyarrow
+yfinance
+databento
+tqdm
+scikit-learn
