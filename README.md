@@ -1,6 +1,6 @@
 # Donchian breakout backtesting research
 
-Python research scripts exploring a **Donchian breakout** strategy on hourly BTC/USD data, with in-sample parameter search, a walk-forward function, and Monte Carlo price-bar permutation tests. The repository also contains exploratory moving-average and decision-tree scripts and a **separate** Databento example for ES futures data. These are research examples, **not** a production trading system.
+My **first attempt at Monte Carlo simulation, started in late 2025**. This exploratory Python project investigates a **Donchian breakout** strategy using hourly BTC/USD data, in-sample parameter search, an experimental walk-forward function, and Monte Carlo price-bar permutation tests. The repository also contains exploratory moving-average and decision-tree scripts and a **separate** Databento example for ES futures data. This repository documents an early learning project, including unfinished experiments and methodological limitations. It is **not** a production trading system or evidence of a profitable strategy.
 
 ## Files
 
@@ -61,3 +61,4 @@ To run the separate ES example, edit `DonchainWFutures.py` and replace `INSERTDA
 ## Security and publishing
 
 The included `.gitignore` excludes `.env` files, Parquet/CSV/DBN datasets and other local market data. The provided `BTCUSD3600.pq` file is intentionally **not** included in this repository archive. Do not upload proprietary market data or credentials. **Rotate the Databento key previously hardcoded in the source, even though it has been replaced here.** Check `git status` and staged changes before publishing.
+
