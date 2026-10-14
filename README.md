@@ -61,7 +61,3 @@ To run the separate ES example, edit `DonchainWFutures.py` and replace `INSERTDA
 ## Security and publishing
 
 The included `.gitignore` excludes `.env` files, Parquet/CSV/DBN datasets and other local market data. The provided `BTCUSD3600.pq` file is intentionally **not** included in this repository archive. Do not upload proprietary market data or credentials. **Rotate the Databento key previously hardcoded in the source, even though it has been replaced here.** Check `git status` and staged changes before publishing.
-
-## License and attribution
-
-The original supplied `LICENSE` is retained, including its copyright attribution to `neurotrader888`. Review the provenance of adapted code and preserve applicable notices; do not replace third-party authorship with your own.
